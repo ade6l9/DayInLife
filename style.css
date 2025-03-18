@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background: #121212;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #1f1f1f, #3a3a3a);
+    color: white;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header p {
+    max-width: 60%;
+    margin: 10px auto; /* Centers it better */
+    font-size: 1.1rem;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+
+/* Sections */
+.section {
+    padding: 100px 20px;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Grid Layout */
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+/* Image Styling */
+.grid-layout img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Section Title */
+h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color: #e0e0e0;
+    margin-bottom: 20px;
+}
+
+/* Section Text */
+p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #bbbbbb;
+    max-width: 700px;
+    line-height: 1.8;
+}
+
+/* Navigation Bar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #000000;
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #b9a06b;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #181818;
+    font-size: 0.95rem;
+    font-weight: 300;
+    font-family: "EB Garamond", serif;  
+    color: #999999;
+    font-style: italic;
+}
+
+
+
+
